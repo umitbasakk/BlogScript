@@ -1,0 +1,158 @@
+.login{
+  margin-right:15px;
+}
+
+.devami{
+
+  float: right;
+  border-radius:2px;
+}
+
+
+.devami:hover{
+  background-color:#17a2b8;
+  border: 1px solid #17a2b8;
+}
+
+.card-img-top{
+  border-radius: 0px;
+}
+
+.navi {
+  float:right;
+  border-radius: 0px;
+}
+
+.icons a{
+  color:black;
+  text-decoration: none;
+  padding-top:50px;
+}
+
+.btns{
+  border-radius: 1px;
+}
+
+.input input {
+
+  border-radius: 0px;
+
+}
+
+
+.forms{
+
+ margin:15px;
+
+}
+
+.commentsubmit{
+  margin-top:10px;
+}
+
+.categorydanger{
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.commentcard{
+
+  margin-top:10px;
+  margin-bottom:10px;
+
+}
+
+.searcbutton{
+
+   margin-left: 10px;
+
+
+}
+
+.title{
+  margin-left:100px;
+  margin-bottom:15px;
+  font-size:20px;
+}
+
+.title a{
+  text-decoration:none;
+  color: black;
+}
+
+.text{
+  margin-left:100px;
+  margin-top:-15px;
+  font-size:15px;
+}
+
+.footer{
+
+
+   bottom:0;
+   width:100%;
+   height:100%;   /* footer yüksekliği */
+   background:#343a40;
+
+
+
+
+}
+
+
+
+.footer h4{
+  color: white;
+  padding-top:80px;
+}
+
+.card-img-top{
+  top-left-radius:10px;
+}
+
+.footer h5{
+  color: white;
+  padding-top:30px;
+}
+
+.footer p{
+  color: white;
+
+}
+
+.linkim a{
+
+font-weight: bold;
+color: white;
+text-decoration: none;
+vertical-align: baseline;
+
+}
+
+.search{
+
+  border-radius:0px 0px 0px 0px;
+
+}
+.searchbutton{
+  border-radius:0px;
+  border: 1px solid #17a2b8;
+}
+
+.searchbutton:hover{
+  background-color:#17a2b8;
+  border: 1px solid #17a2b8;
+
+}
+.categorybutton{
+  border-radius:0px 0px 0px 0px;
+  border:  0px solid white;
+
+}
+.categorybutton:hover{
+  background-color:#17a2b8;
+  color:white;
+  border-radius:0px 0px 0px 0px;
+  border:  0px solid white;
+}

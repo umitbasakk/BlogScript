@@ -1,0 +1,29 @@
+RewriteEngine on
+
+RewriteRule ^contact$ contact.php [NC,L]
+RewriteRule ^about$ about.php [NC,L]
+RewriteRule ^home$ index.php [NC,L]
+RewriteRule ^search$ search.php [NC,L]
+RewriteRule ^profile$ profile.php [NC,L]
+RewriteRule ^dashboard/home$ dashboard/home.php [NC,L]
+RewriteRule ^dashboard/users$ dashboard/users.php [NC,L]
+RewriteRule ^dashboard/articles$ dashboard/articles.php [NC,L]
+RewriteRule ^dashboard/category$ dashboard/category.php [NC,L]
+RewriteRule ^dashboard/comments$ dashboard/comments.php [NC,L]
+RewriteRule ^dashboard/inbox$ dashboard/message.php [NC,L]
+RewriteRule ^dashboard/settings$ dashboard/settings.php [NC,L]
+
+
+
+RewriteRule ^article/([a-zA-Z0-9-/]+)$   single.php?url=$1& [L,QSA]
+RewriteRule ^category/([a-zA-Z0-9-/]+)$  category.php?url=$1
+RewriteRule ^home/([a-zA-Z0-9-/]+)$   index.php?sayfa=$1& [L,QSA]
+
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
