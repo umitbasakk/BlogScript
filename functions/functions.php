@@ -1,8 +1,4 @@
 <?php
-
-
-
-
 if(isset($_SESSION["oturum"])){
 
     $sez = $db->prepare("SELECT * FROM users WHERE email=?");
