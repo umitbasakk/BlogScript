@@ -1,8 +1,12 @@
 <?php
+
+$referer = $_SERVER['HTTP_REFERER'];
+
+if ($referer == "") { Header("Location:/home"); } else{
+
+
+
 if(isset($_SESSION["oturum"])){
-
-
-
 
     $sez = $db->prepare("SELECT * FROM users WHERE email=?");
     $sez->execute(array($_SESSION["oturum"]));
@@ -34,29 +38,15 @@ if(isset($_SESSION["oturum"])){
                       $contact->execute(array(0));
                       $conn = $contact->rowCount();
 
-
-
               }
+       }
 
-
-
-
-     }
-
-
-
-
- }
-
-
-
-
+    }
 
 
   $select = $db->prepare("SELECT * FROM settings WHERE id=?");
   $select->execute(array(1));
   $result = $select->fetch(PDO::FETCH_ASSOC);
-
 
   if($select->rowCount()){
     $title = $result["site_title"];
@@ -111,5 +101,5 @@ if( $saniye < 60 ){
  return $yil.' yıl önce';
 }
 }
-
+} 
 ?>
