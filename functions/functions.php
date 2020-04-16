@@ -1,8 +1,5 @@
 <?php
 
-$referer = $_SERVER['HTTP_REFERER'];
-
-if ($referer == "") { Header("Location:/home"); } else{
 
 
 
@@ -101,5 +98,5 @@ if( $saniye < 60 ){
  return $yil.' yıl önce';
 }
 }
-} 
+
 ?>
