@@ -1,4 +1,4 @@
-# BlogScript İnstall
+# BlogScript Kurulum
 
 1 - Yeni bir veritabanı oluşturunuz<br/>
 2 - siteadres.uzanti olarak siteye giriş yapınız<br/>
@@ -9,3 +9,10 @@
 # Notlar
 
 1 - Sistemde işlemler id ile değil seo url ile yapılmaktadır. <br/>
+
+# Kullanılan Teknolojiler
+
+1 - PDO<br/>
+2 - AJAX<br/>
+3 - Sweetalert<br/>
+4 - Javascript<br/>
