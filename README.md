@@ -6,5 +6,6 @@
 4 - Site adresi kısmına sonuna mutlaka / koyunuz ve adresin doğru olduğundan emin olunuz yoksa css dosyaları çalışmayacaktır<br/>
 5 - Kurulum bitince rahatlıkla kullanabilirsiniz<br/>
 
-<h3>Notlar</h3>
+# Notlar
+
 1 - Sistemde işlemler id ile değil seo url ile yapılmaktadır. <br/>
