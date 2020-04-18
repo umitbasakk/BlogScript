@@ -9,6 +9,7 @@
 # Notlar
 
 1 - Sistemde işlemler id ile değil seo url ile yapılmaktadır. <br/>
+2 - Site adresinin sosnuna / koyarak giriniz.
 
 # Kullanılan Teknolojiler
 
