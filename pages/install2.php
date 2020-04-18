@@ -45,7 +45,7 @@ if(isset($_POST["install"])){
                           password VARCHAR(255) NOT NULL,
                           time timestamp NOT NULL DEFAULT NOW()
 
-                          )";
+                        ) CHARACTER SET utf8 COLLATE utf8_turkish_ci";
 
                           $conn->exec($users);
 
@@ -79,7 +79,7 @@ if(isset($_POST["install"])){
                   site_title VARCHAR(255) NOT NULL,
                   description VARCHAR(255) NOT NULL,
                   site_url VARCHAR(255) NOT NULL
-        )";
+        )  CHARACTER SET utf8 COLLATE utf8_turkish_ci";
 
         $conn->exec($settings);
 
@@ -108,7 +108,7 @@ if(isset($_POST["install"])){
                  comment text NOT NULL,
                  comment_statu INT(11) NOT NULL  DEFAULT '0',
                  time timestamp NOT NULL DEFAULT NOW()
-        )";
+        )  CHARACTER SET utf8 COLLATE utf8_turkish_ci";
 
         $conn->exec($comments);
 
@@ -127,7 +127,7 @@ if(isset($_POST["install"])){
              author  VARCHAR(255) NOT NULL,
              statu INT(11) NOT NULL DEFAULT '0',
              time timestamp NOT NULL DEFAULT NOW()
-        )";
+        )  CHARACTER SET utf8 COLLATE utf8_turkish_ci";
 
         $conn->exec($article);
 
