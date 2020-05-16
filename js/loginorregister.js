@@ -19,7 +19,7 @@
                     $.ajax({
 
                           type: "POST",
-                          url: "/operations.php",
+                          url: "operations.php",
                           data: Data,
                           success:function(data){
 
@@ -64,7 +64,7 @@
 
                     $.ajax({
                         type: "POST",
-                        url: "/operations.php",
+                        url: "operations.php",
                         data:Data,
                         success:function(data){
 

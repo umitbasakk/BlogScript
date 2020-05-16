@@ -122,7 +122,7 @@ if(isset($_POST["useradd"])){
 
       $nmq = $res["comment_name"];
       $text = $res["comment"];
-      $stat = $res["statu"];
+      $stat = $res["comment_statu"];
 
 
     if($select->rowCount()){
